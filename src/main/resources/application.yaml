@@ -19,7 +19,7 @@ spring:
           uri: lb://EAD-NOTIFICATION-SERVICE
           predicates:
             - Path=/ead-notification/**
-
+            -
 eureka:
   client:
     serviceUrl:
